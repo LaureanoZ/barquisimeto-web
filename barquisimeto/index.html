@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="imagenes/logadardo.png" type="favicon/x-icon">
+    <link rel="stylesheet" href="estilos.css">
+    <script src="recursos/jquery.min.js"></script>
+    <script src="recursos/cycle/jquery_cycle.js"></script>
+    <script>
+        $('#imagen').cycle({
+            fx: 'scrollHorz',
+            speed: 1500,
+            timeout: 1500,
+            prev: '#ant',
+            next: '#sig',
+            pause: true
+        });
+
+    </script>
+    <title>BARQUISIMETO</title>
+</head>
+
+<body>
+    <div id="contenedorgeneral" class="contenedorresponsive">
+        <header>
+            <a href="#nav" id="menu">Menu</a>
+            <nav id="nav">
+                <ul>
+                    <li> <a href="index.html">INICIO</a></li>
+                    <li> <a href="visitanos.html">VISITANOS</a></li>
+                    <li> <a href="informacion.html">INFORMACION</a></li>
+                    <li> <a href="contacto.html">CONTACTO</a></li>
+                    <li><a href="#"><span id="cerrar">Cerrar</span></a></li>
+                </ul>
+            </nav>
+            <div id="logo">
+                <img src="imagenes/logadardo.png" alt="logo catedral">
+            </div>
+        </header>
+
+        <!-- inicio de la seccion -->
+        <section>
+            <div>
+                <h1 id="titulo"><span id="bienvenido"> Bienvenido a </span><span class="fuente"> [Barquisimeto></span></h1>
+                <p id="textou">¿Quieres vivir una experiencia inolvidable? entonces entro al sitio correcto!
+                    aqui en Barquisimeto tenemos las mejores atracciones turisticas para que pueda
+                    gozar y disfrutar con su familia.</p>
+                <p id="boton"> <a href="contacto.html">Haz tu reserva</a></p>
+            </div>
+            <div id="imagen">
+                <img src="imagenes/bar.jpg" alt="cartel bienvenida de barquisimeto">
+                <img src="imagenes/morro.jpg" alt="morrocoy">
+                <img src="imagenes/hum.jpg" alt="HotelHumboldt">
+                <img src="imagenes/cat.jpg" alt="catedral barquisimeto">
+            </div>
+        </section>
+
+        <!-- inicio de los articulos -->
+        <article class="reseñas">
+            <h2>
+                <q>Me encanto Barquisimeto, volveria mil veces, estupendo todo el servicio!!</q>
+            </h2>
+
+            <div>
+                <img class="usuario" src="imagenes/usuariio1.jpg" alt="foto de usuario 1">
+            </div>
+            <h2>
+                Analia Mendez
+            </h2>
+
+        </article>
+        <article class="reseñas">
+            <h2>
+                <q>Muy buena opcion para disfrutar con familia, amigos o tu pareja, MUY CONFORME!</q>
+            </h2>
+            <div>
+                <img class="usuario" src="imagenes/usuariio2.jpg" alt="foto de usuario 2">
+            </div>
+            <h2>
+                Sebastian Sanchez
+            </h2>
+
+        </article>
+
+        <!-- inicio del footer -->
+
+        <footer>
+            <div>
+                <p id="info">INFORMACION</p>
+                <p id="sitio">Este sitio es una entrega para un Trabajo Practico de primer cuatrimestre de la Escuela Da
+                    Vinci 2021. </p>
+                <ul>
+                    <li>Laureano Zalazar</li>
+                    <li>Maquetado y Desarrollo Web</li>
+                    <li>Mabel Garcia</li>
+                </ul>
+
+            </div>
+        </footer>
+    </div>
+    <!-- Inicio de la navegacion -->
+
+
+
+
+</body>
+
+</html>

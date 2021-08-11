@@ -1,0 +1,845 @@
+/* FUENTES */
+@font-face{
+    font-family: "Diverplate";
+    src: url(fonts/Diverplate.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+
+/* estilos generales */
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(imagenes/pattern.png);
+    background-attachment: fixed;
+}
+
+/* contenedor general */
+#contenedorgeneral{
+    width: 1360px;
+    height: 1450px;
+    margin: 0px auto;
+    border: 1px solid black;
+    background-color: white;
+}
+#contenedorgeneralvisitanos{
+    width: 1360px;
+    height: 4930px;
+    margin: 0px auto;
+    border: 1px solid black;
+    background-color: white;
+}
+
+#contenedorgeneralinformacion{
+    width: 1360px;
+    height: 1990px;
+    margin: 0px auto;
+    border: 1px solid black;
+    background-color: white;
+}
+#contenedorgeneralcontacto{
+    width: 1360px;
+    height: 2510px;
+    margin: 0px auto;
+    border: 1px solid black;
+    background-color: white;
+}
+#contenedorgeneralgracias{
+    width: 1360px;
+    height: 730px;
+    margin: 0px auto;
+    border: 1px solid black;
+    background-color: white;
+}
+
+
+/* Inicio de la navegacion */
+
+
+header{
+    height: 50px;
+    width: 100%;
+    margin: 15px auto;
+    background-color: black;
+}
+#menu{
+    display:none;
+}
+
+#cerrar{
+    display:none
+}
+#nav {
+    float: right;
+    height: 15px;
+}
+#nav ul li{
+    display: inline-block; 
+    line-height: 20px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-right: 18px;
+}
+#nav ul li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    transition: all 200ms;
+}
+
+
+#nav ul li a:hover{
+    color:  rgb(255, 255, 8);
+    transform: scale(1.2,1.2);
+}
+
+#logo img{
+    display: block;
+    width: 95px;
+    height: 44px;
+    margin-left: 15px;
+    float: left ;
+    margin-top: 5px;
+}
+
+/* inicio de la seccion */
+section{
+    width: 100%;
+    height: 600px;
+    margin: 15px auto;
+    background-color: rgb(255, 255, 119);
+}
+#imagen{
+    display: block;
+    float:right;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    margin-right: 20px;
+    padding: 0px;
+
+}
+#imagen2{
+    display: block;
+    float:right;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    margin-right: 250px;
+    padding: 0px;
+
+}
+#imagen2 img{
+    box-shadow: 1px 1px 5px rgb(68, 67, 67);
+    margin-left: 96px;
+}
+#imagen img{
+    box-shadow: 1px 1px 5px rgb(68, 67, 67);
+}
+
+section div{
+    float: left;
+    width: 500px;
+    margin-top: 100px;
+    margin-left:-140px;
+}
+#titulo{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 50px;    
+    margin-left: 70px;
+    margin-top: -50px;
+    width: 800px;
+  }
+.fuente{
+    font-family: "Diverplate";
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 75px;
+    margin-left: 70px;
+    margin-top: -50px;
+    
+}
+#textou{
+    font-size: 20px;
+    color:  #37bcf9;
+    margin-left: 250px;
+    margin-top: 50px;
+    width: 400px;
+    text-align: left;
+}
+#boton{
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: #37bcf9;
+    box-shadow: 1px 1px 1px rgb(117, 116, 116);
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 65px;
+    font-size: 20px;
+    width: 230px;
+    height: 60px;
+    margin-left: 400px;
+    margin-top: 80px;
+}
+#boton a{
+    text-decoration: none;
+    color: white;
+}
+#boton:active{
+    box-shadow: 1px 1px 6px rgb(117, 116, 116) inset;
+}
+
+
+/* inicio de los articles */
+/* articles index */
+.reseñas{
+    width: 1320px;
+    height: 250px;
+    background-color: #ccc;
+    border-radius: 10px;
+    color: black;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    box-shadow: 1px 1px 8px rgb(139, 139, 139);
+}
+
+.usuario{
+    border-radius: 50px;
+    box-shadow: 1px 1px 4px black;
+    margin-left: 625px;
+    margin-top: -30px;
+}
+
+.reseñas h2{
+    line-height: 100px;
+    text-align: center;
+}
+.reseñas h2:last-child{
+    line-height: 20px;
+}
+
+/* articles informacion */
+
+.noticias{
+    width: 1250px;
+    height: 250px;
+    background-color: #37bcf9;
+    border-radius: 10px;
+    color: black;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 20px;
+    box-shadow: 1px 1px 8px rgb(139, 139, 139);
+}
+.noticias h2{
+    font-size: 27px;
+    line-height: 73px;
+    text-align: center;
+}
+.parrafo{
+    display: block;
+    float: left;
+    width: 700px;
+    margin-top: -20px;
+    margin-left: 275px;
+    line-height: 66px;
+    text-align: center;
+    height: 50px;
+}
+.reserva{
+    float: right;
+    width: 200px;
+    height: 50px;
+    box-shadow: 1px 1px 5px black;
+    background-color: #ccc;
+    line-height: 50px !important;
+    color: #37bcf9;
+    margin-right: 20px;
+    margin-top: -25px ;
+    text-align: center;
+    transition: all 1s;
+}
+.reserva:active{
+    box-shadow: 1px 1px 6px rgb(117, 116, 116) inset;
+}
+
+.reserva a{
+    display: block;
+    text-decoration: none;
+    width:200px ;
+    color:  rgb(225, 102, 21);
+}
+
+.reserva:hover{
+    background-color: #333;
+    border: 4px solid #37bcf9;
+    border-radius: 240px;
+    box-shadow: 0px 0px 10px gray;
+    animation: blink 10s infinite linear;
+}
+.reserva:hover a{
+    text-shadow: 1px 1px 1px black, 1px 2px 1px black, 1px 3px 1px black, 1px 4px 1px black, 1px 5px 1px black, 1px 6px 1px black ;
+
+}
+@keyframes blink{
+    0%{
+        border: 4px solid #37bcf9;
+    }
+    25%{
+        border: 4px solid green;
+    }
+    50%{
+        border: 4px solid yellow;
+    }
+    75%{
+        border: 4px solid white;
+    }
+    100%{
+        border: 4px solid #37bcf9;
+    }
+}
+
+
+
+
+
+
+/* articles visitanos */
+
+.articulo{
+    padding: 80px;
+    padding-top: 20px;
+    margin: 50px auto;
+    width: 1200px;
+    height: 850px;
+    background-color: rgb(240, 240, 240);
+    box-shadow: 0px 1px 4px gray;
+}
+
+
+.articulo h2{
+    font-size: 50px;
+    text-align: center;
+    line-height: 0px;
+    
+}
+.iframe{
+    float: right;
+    margin-top: 150px;
+}
+
+
+.imagenv{
+    float: right;
+    margin-top: 60px;
+    padding: 25px;
+    width:540px;
+    height:520px;
+}
+.texto{
+    width: 45%;
+    height: 100%;
+    float: left;
+    line-height: 25px;
+    text-indent: 20px;
+}
+p{
+    
+    font-family: sans-serif;
+    font-size: 17px;
+    text-align: justify;
+}
+strong,em,abbr{
+    font-weight: normal;
+    text-decoration: none;
+    
+}
+.articulo:last-child{
+    overflow: auto !important ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* inicio del footer */
+footer{
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+    background: black;
+    color: white;
+}
+#info{
+    display: block;
+    float:left;
+    width: 190px;
+    height: 55px;
+    margin-top: 80px;
+    margin-left: 100px;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 57px;
+    transition: all 1s;
+    cursor: default;
+}
+#info:hover{
+    border: 4px solid #37bcf9;
+    border-radius: 240px;
+    box-shadow: 0px 0px 10px gray;
+}
+
+
+
+
+
+
+footer ul{
+    float: right;
+    height: 80px;
+    width: 185px;
+    margin-top: 15px;
+    margin-right: 120px;
+    font-size: 20px;
+    cursor: default;
+}
+footer ul li{
+    margin-top: 15px;
+    height: 50px;
+    transition: all 300ms;
+}
+footer ul li:hover{
+    padding-left: 40px ;
+    color: #37bcf9;
+    width: 100%;
+ }
+#sitio{
+    display: block;
+    float: right;
+    height: 80px;
+    width: 400px;
+    margin-top: 95px;
+    margin-right: 100px;
+    text-align: center;
+    cursor: default;
+    transition: all 300ms;
+}
+
+#sitio:hover{
+    text-shadow: 1px 1px 4px #37bcf9;
+}
+
+/* inicio del formulario */
+form{
+    width: 1250px;
+    height: 1600px;
+    font-family:verdana; 
+    margin-left: 50px;
+    background-color: white;
+    border:solid 1px #ccc;
+    box-shadow: 1px 1px 5px black;
+}
+.span{
+    width: 390px;
+    height: 100px;
+    display:inline-block;
+    padding:15px;
+    margin-top: 40px;
+    margin-left: 200px;
+}
+input{
+    width:250px;
+    height: 30px;
+}
+	
+fieldset{
+    border: 0px solid white;
+}
+legend span{
+    display:inline-block;
+    padding:15px;
+    width:300px;
+    margin-left: 470px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-weight: bold;
+    background: #37bcf9;
+    text-align:center;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+#sexo{
+    width: 1365px;
+}
+input[type="submit"]{
+    height: 50px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    background-color: #37bcf9;
+    border-radius: 7px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 5px black;
+    margin-left: 500px;
+    margin-top: 150px;
+}
+input[type="submit"]:active{
+    box-shadow: 1px 1px 6px rgb(117, 116, 116) inset;
+}
+#destino{
+    margin-left: 215px;
+}
+select{
+    margin-left: 400px;
+}
+input[type="file"]{
+    margin-left: 300px;
+}
+#adjuntar{
+    margin-left: 215px;
+    margin-top: 140px;
+}
+
+/* Estilos del GRACIAS */
+
+#gracias{
+    width: 700px;
+    height: 350px;
+    box-shadow: 3px 3px 3px #ccc;
+    background-color: rgb(247, 247, 247);
+    margin: 0px auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+#textogracias{
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 80px;
+}
+#volver{
+    height: 50px;
+    width: 90px;
+    text-transform: uppercase;
+    font-size: 20px;
+    background-color: #37bcf9;
+    border-radius: 7px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 5px black;
+    text-align: center;
+    margin-left: 305px;
+}
+#volver a{
+    text-decoration: none;
+    line-height: 50px;
+    color: white;
+}
+
+/* Responsive */
+@media screen and (max-width: 480px){
+
+    /* Contenedor general */
+    #contenedorgeneral{
+        width: 480px;
+        height: 970px;
+    }
+    #contenedorgeneralvisitanos{
+        width: 480px;
+        height: 4250px;
+    }
+    
+    #contenedorgeneralinformacion{
+        width: 480px;
+        height: 1410px;
+    }
+    #contenedorgeneralcontacto{
+        width: 480px;
+        height: 1860px;
+    }
+    #contenedorgeneralgracias{
+        width: 480px;
+        height: 600px;
+    }
+
+    /* navegacion */
+    #nav{
+        display: none;
+        float: left;
+    }
+
+#nav:target{
+    display: block;
+    width: 200px;
+    height: 310px;
+    margin-top: 50px;
+    margin-left: 9px;
+    background-color: #ccc;
+    box-shadow: 3px 3px 3px #ccc;
+    position:absolute;
+}
+
+#nav li {
+    padding:10px;
+    margin:5px;
+}
+
+
+#menu{
+    float: left;
+    display: block;
+	background: url(imagenes/hamburguesa.png) no-repeat;
+	width: 36px; 
+	height: 36px;
+	font-size:0;
+    margin-top: 7px;
+    margin-left: 7px;
+}
+#cerrar{
+	display:block;
+	background:url(imagenes/cerrar.png) no-repeat;
+	width: 36px;
+	height: 36px; 
+	font-size: 0;
+    margin-left: 89px;
+    margin-top: 26px;
+}
+#logo img{
+    float: right ;
+}
+/* banner responsive */
+
+.fuente {
+    font-size: 57px;
+    margin-left: 0px;
+    margin-right: 166px;
+}
+#bienvenido{
+    font-size: 30px;
+    margin-right: 172px;
+}
+#textou {
+    font-size: 13px;
+    margin-left: 200px;
+}
+#boton {
+    line-height: 44px;
+    font-size: 11px;
+    width: 130px;
+    height: 40px;
+    margin-left: 330px;
+    margin-top: 40px;
+}
+#imagen{
+    visibility: hidden;
+    display: none;
+}
+section {
+    height: 420px;
+}
+.reseñas {
+    width: 440px;
+    height: 140px;
+    font-size: 8px;
+}
+.reseñas h2 {
+    line-height: 25px;
+    text-align: center;
+}
+.usuario {
+    margin-left: 198px;
+    width: 45px;
+    margin-top: 2px;
+}
+/* footer responsive */
+footer{
+    height: 130px;
+}
+#info {
+    width: 80px;
+    height: 40px;
+    margin-top: 45px;
+    margin-left: 10px;
+    font-size: 10px;
+    line-height: 43px;
+}
+footer ul {
+    float: left;
+    height: 60px;
+    width: 80px;
+    margin-top: 15px;
+    margin-left: 36px;
+    font-size: 10px;
+    line-height: 12px;
+}
+footer ul li {
+    margin-top: 15px;
+    height: 20px;
+    width: 85px;
+}
+#sitio {
+    display: block;
+    float: right;
+    height: 80px;
+    width: 79px;
+    margin-top: 47px;
+    margin-right: 35px;
+    font-size: 7px;
+}
+/* visitanos Responsive */
+#imagen2{
+    visibility: hidden;
+    display: none;
+}
+
+.articulo {
+    padding: 0px;
+    padding-top: 20px;
+    margin: 20px auto;
+    width: 440px;
+    height: 850px;
+}
+.articulo h2 {
+    font-size: 20px;
+    margin-bottom: 43px;
+}
+.texto {
+    width: 93%;
+    height: 100%;
+    float: none;
+    line-height: 16px;
+    margin-left: 14px;
+}
+p{
+    font-size: 9px;
+}
+.iframe{
+    float: right;
+    margin-top: -400px;
+    width: 400px;
+    height: 300px;
+    margin-right: 15px;
+}
+.imagenv{
+    margin-right: -5px;
+    margin-top: -271px;
+    padding: 25px;
+    width: 400px;
+    height: 300px;
+}
+#morrocoy{
+    margin-top: -430px;
+}
+/* Informacion Responsive */
+.noticias {
+    width: 440px;
+    height: 171px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 11px;
+}
+.noticias h2 {
+    font-size: 14px;
+    line-height: 50px;
+}
+.parrafo {
+    width: 378px;
+    margin-top: -28px;
+    margin-left: 43px;
+    line-height: 26px;
+    text-align: center;
+    height: 48px;
+}
+.reserva {
+    width: 100px;
+    height: 30px;
+    line-height: 36px !important;
+    margin-right: 160px;
+    margin-top: 7px;
+}
+.reserva a {
+    width: 105px;
+}
+/* contacto responsive */
+form {
+    width: 440px;
+    height: 1200px;
+    margin-left: 19px;
+}
+legend span {
+    width: 185px;
+    margin-left: 108px;
+    margin-top: 20px;
+    font-size: 11px;
+}
+.span {
+    width: 135px;
+    height: 17px;
+    display: block;
+    padding: 15px;
+    margin-top: 30px;
+    margin-left: -15px;
+}
+select {
+    margin-left: 100px;
+    margin-top: 69px;
+}
+#destino {
+    margin-left: 5px;
+}
+#adjuntar {
+    margin-left: 2px;
+    margin-top: 86px;
+    width: 225px;
+}
+input[type="file"] {
+    margin-left: 10px;
+}
+input{
+    width: 122px;
+}
+input[type="submit"] {
+    height: 33px;
+    width: 80px;
+    font-size: 16px;
+    margin-left: 179px;
+    margin-top: 71px;
+}
+/* Gracias Responsive */
+#gracias {
+    width: 460px;
+    height: 250px;
+}
+#textogracias {
+    font-size: 17px;
+}
+#volver {
+    height: 32px;
+    width: 73px;
+    font-size: 15px;
+    margin-left: 193px;
+}
+#volver a {
+    line-height: 37px;
+}
+}
